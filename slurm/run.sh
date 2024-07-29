@@ -19,7 +19,7 @@ python3 ./retrieve/retrieve.py \
 
 
 python3 ./rewrite/sample.py \
-        --retrieved_path ./retrieve/dataset/$dataset/$scale/turn0/dev.json \
+        --retrieved_path ./retrieve/dataset/$dataset/$scale/turn0 \
         --dump_path ./rewrite/dataset/$dataset/$scale/input/turn0 \
         --top_k 5
 
@@ -50,7 +50,7 @@ done
 
 
 python3 ./rewrite/sample.py \
-        --retrieved_path ./retrieve/dataset/$dataset/$scale/turn1/dev.json \
+        --retrieved_path ./retrieve/dataset/$dataset/$scale/turn1 \
         --dump_path ./rewrite/dataset/$dataset/$scale/input/turn1 \
         --top_k 5
 
@@ -87,7 +87,7 @@ done
 
 
 python3 ./rewrite/sample.py \
-        --retrieved_path ./retrieve/dataset/$dataset/$scale/turn2/dev.json \
+        --retrieved_path ./retrieve/dataset/$dataset/$scale/turn2 \
         --dump_path ./rewrite/dataset/$dataset/$scale/input/turn2 \
         --top_k 5
 
