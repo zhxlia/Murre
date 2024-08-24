@@ -4,14 +4,11 @@ This repository contains code for the paper ["Multi-Hop Table Retrieval for Open
 If you use Murre in your work, please cite it as follows:
 
 ```
-@misc{zhang2024multihoptableretrievalopendomain,
-      title={Multi-Hop Table Retrieval for Open-Domain Text-to-SQL}, 
-      author={Xuanliang Zhang and Dingzirui Wang and Longxu Dou and Qingfu Zhu and Wanxiang Che},
-      year={2024},
-      eprint={2402.10666},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2402.10666}, 
+@article{zhang2024multi,
+  title={Multi-Hop Table Retrieval for Open-Domain Text-to-SQL},
+  author={Zhang, Xuanliang and Wang, Dingzirui and Dou, Longxu and Zhu, Qingfu and Che, Wanxiang},
+  journal={arXiv preprint arXiv:2402.10666},
+  year={2024}
 }
 ```
 
